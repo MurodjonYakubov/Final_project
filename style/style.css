@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.soat{
+   box-shadow: 38px 20px 10px rgb(34, 34, 34);
+   height: 500px;
+   width: 500px;
+   border: 20px solid #000;
+   border-radius: 50%;
+   background-color: #fff;
+   position: relative;
+}
+
+
+.vaqt{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+}
+
+
+.soat .vaqt p:nth-child(1){
+    font-size: 85px;
+    font-weight: 900;
+    position: absolute;
+    left: 313px;
+    top: 30px;
+}
+
+.soat .vaqt p:nth-child(2){
+    font-size: 85px;
+    font-weight: 900;
+    position: absolute;
+    left: 374px;
+    top: 90px;
+}
+
+.soat .vaqt p:nth-child(3){
+    font-size: 85px;
+    font-weight: 900;
+    position: absolute;
+    left: 404px;
+    top: 182px;
+}
+
+.soat .vaqt p:nth-child(4){
+    font-size: 85px;
+    font-weight: 900;
+    position: absolute;
+    left: 368px;
+    top: 269px;
+}
+
+.soat .vaqt p:nth-child(5){
+    font-size: 85px;
+    font-weight: 900;
+    position: absolute;
+    left: 313px;
+    top: 334px;
+}
+
+.soat .vaqt p:nth-child(6){
+    font-size: 85px;
+    font-weight: 900;
+    position: absolute;
+    left: 216px;
+    top: 366px;
+}
+
+.soat .vaqt p:nth-child(7){
+    font-size: 85px;
+    font-weight: 900;
+    position: absolute;
+    left: 119px;
+    top: 334px;
+}
+
+.soat .vaqt p:nth-child(8){
+    font-size: 85px;
+    font-weight: 900;
+    position: absolute;
+    left: 50px;
+    top: 270px;
+}
+
+.soat .vaqt p:nth-child(9){
+    font-size: 85px;
+    font-weight: 900;
+    position: absolute;
+    left: 23px;
+    top: 182px;
+}
+
+.soat .vaqt p:nth-child(10){
+    font-size: 85px;
+    font-weight: 900;
+    position: absolute;
+    left: 35px;
+    top: 99px;
+}
+
+.soat .vaqt p:nth-child(11){
+    font-size: 85px;
+    font-weight: 900;
+    position: absolute;
+    left: 95px;
+    top: 30px;
+}
+
+
+.soat .vaqt p:nth-child(12){
+    font-size: 85px;
+    font-weight: 900;
+    position: absolute;
+    left: 192px;
+    top: -2px;
+}
+
+.box-radius-50{
+    width: 30px;
+    height: 30px;
+    background-color: #fe0000;
+    border-radius: 50%;
+    position: absolute;
+    right: 251px;
+    bottom: 251px;
+}
+.box-radius-50:hover{
+    transform: scale(1.5);
+}
+
+
+.s-wrapper{
+    height: 400px;
+    width: 5px;
+    position: absolute;
+    left: 231px;
+    top: 30px;
+    animation: time-s-m-ch 60s linear infinite;
+}
+
+
+.s{
+    width: 5px;
+    height: 75%;
+    background-color: #1500ff;
+    border-radius: 2px;
+}
+
+
+.m-wrapper{
+    height: 400px;
+    width: 10px;
+    position: absolute;
+    left: 228px;
+    top: 30px;
+    animation: time-s-m-ch 3600s;
+    
+}
+
+.m-t{
+    height: 20px;
+    background-color: transparent;
+}
+
+
+.m{
+    width: 10px;
+    height: 65%;
+    background-color: #00ff00;
+    border-radius: 4px;
+}
+
+.ch-wrapper{
+    height: 400px;
+    width: 15px;
+    position: absolute;
+    left: 227px;
+    top: 30px;
+    animation: time-s-m-ch 86400s linear infinite;
+}
+
+
+.ch{
+    width: 15px;
+    height: 50%;
+    background-color: #f7ff01;
+    border-radius: 5px;
+}
+
+.ch-t{
+    height: 71px;
+    background-color: transparent;
+} 
+
+@keyframes time-s-m-ch{
+    from{
+       transform: rotate(0deg);
+    }
+
+    to{
+       transform: rotate(360deg);
+    }
+}
