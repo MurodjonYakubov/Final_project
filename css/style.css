@@ -24,6 +24,12 @@ button{
 .icon__btn--button{
     padding: 12px 15px;
 }
+
+.icon_btn{
+    width: 40px;
+    height: 40px;
+}
+
 .button:hover{
     cursor: pointer;
     box-shadow: 0 10px 25px rgba(1, 1, 0, 0.15);
@@ -395,7 +401,8 @@ header{
 }
 
 
-.services h2{
+.services h2,
+.category h2{
     display: flex;
     align-items: center;
     gap: 28px;
@@ -411,5 +418,120 @@ header{
     margin-top: 100px;
 }
 
+.category{
+    margin: 150px 0 130px 0;
+}
 
-/* ###################################################################### */
+.category .category_wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 50px;
+    margin-top: 64px;
+}
+
+.category .category_item{
+    max-width: 100px;
+    min-width: 85px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.category .category_item .icon_wrapper{
+    width: 100%;
+    height: 96px;
+    border-radius: 21px;
+    background-color: rgb(242,242,242);
+    display: grid;
+    place-content: center;
+    transition: 0.4s;
+}
+
+.category .category_item .icon_wrapper:hover{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.category .category_item .icon_wrapper h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contact{
+    margin-bottom: 1400px;
+}
+
+.contact .back_call{
+    background-color: rgb(16, 187, 135);
+    border-radius: 28px;
+    display: flex;
+    padding: 40px 124px 50px 96px;
+    gap: 64px;
+}
+
+
+.contact .back_call .back_call_item{
+    width: 50%;
+}
+
+.contact .back_call .back_call_item h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #fff;
+}
+
+.contact .back_call .back_call_item p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(72, 123, 108);
+    line-height: 20px;
+    margin-top: 44px;
+}
+
+.contact .back_call .back_call_item form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+}
+
+.contact .back_call .back_call_item form .form_item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact .back_call .back_call_item form .form_item label{
+    color: rgb(72, 123, 108);
+    font-size: 12px;
+    font-weight: 500;
+}
+.contact .back_call .back_call_item form .form_item input{
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.15);
+    border: none;
+    outline: none;
+    color: #000;
+}
+.contact .back_call .back_call_item form .form_item input{
+    color: rgb(229,229,229);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.contact .back_call .back_call_item form .form_item .form_item_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+footer{
+    background-color: rgb(242,242,242);
+}
