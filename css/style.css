@@ -461,7 +461,7 @@ header{
 }
 
 .contact{
-    margin-bottom: 1400px;
+    margin-bottom: 140px;
 }
 
 .contact .back_call{
@@ -533,5 +533,118 @@ header{
 }
 
 footer{
-    background-color: rgb(242,242,242);
+    background-color: rgba(242, 242, 242, 1);
+}
+
+footer .top__foooter{
+    padding: 50px 0;
+}
+footer .top__foooter .inside__top{
+    height: 1/2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+footer .top__foooter .inside__top .box{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .top__foooter .inside__top .box .linner__box{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+footer .top__foooter .inside__top .box .line{
+    margin: 19px;
+}
+footer .top__foooter .inside__top ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+}
+
+footer .top__foooter .inside__top ul li a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+footer .line_vrap{
+    display: flex;
+    margin-left: 210px;
+    margin-top: 2px;
+    align-items: center;
+
+}
+.line__foot{
+    width: 100%;
+    height: 2px;
+    background-color: rgba(229, 229, 229, 1);
+}
+.inside__bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.oposi{
+    opacity: 0;
+}
+
+.margin{
+    margin-left: -75px;
+    margin-bottom: 50px;
+}
+
+.icons__foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button__foot{
+    width: 370px;
+    height: 50px;
+    display: flex;
+    gap: 28px;
+}
+
+
+.foot__se{
+    color: rebeccapurple;
+}
+
+.red{
+
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(179, 179, 179, 1);
+}
+
+
+.red2{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+
+.gren{
+    color: #487B6C;
+}
+
+.mnb{
+    display: flex;
+    gap: 12px;
+    color: #487B6C !important;
+}
+
+.mnb p{
+    color: #487B6C !important;
+
 }
